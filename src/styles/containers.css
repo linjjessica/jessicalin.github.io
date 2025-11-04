@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.main-content {
+  padding-top: 73px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* width: 120vw;
+  height: 120vh; */
+  /* min-height: calc(100vh - 50px - 73px); */
+  display: flex; /* Enables flexbox */
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  align-items: flex-start; /* Aligns items to the start of the container */
+  /* margin-top: 73px; */
+}
+
+.home_background {
+  background-position: 0 -73px;
+  background-image: url('../images/welcome/Background.jpg');
+  background-size: cover;
+  /* background-position: center;  */
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+.welcome_logo_container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 217px;
+  height: 100px;
+  flex-direction: column;
+}
+
+.logo_container {
+  display: flex;
+  height: 40px;
+  font-size: 16pt;
+  justify-content: left;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start of the container */
+  flex: 1; /* Children will grow to fill the space */
+  min-width: 370px;
+  align-items: center;
+  min-height: 100px;
+}
+
+.fixed-page-height-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  min-width: 370px;
+  align-items: center;
+  min-height: 200px;
+  height: calc(100vh - 50px - 73px);
+}
+
+.half-block {
+  flex: none; /* Equal amount of space */
+  min-width: 420px;
+  width: 50%; /* 50% of container's width */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  text-align: left; /* Centers the text horizontally */
+  padding: 1rem; /* Adjust the padding as necessary */
+  justify-content: row;
+}
+
+.third-block {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically within the container */
+  align-items: center; /* Center children horizontally within the container */
+  padding: 1rem; /* Adjust the padding as necessary */
+  flex: 1; /* Children will grow to fill the space */
+  max-width: 400px; /* Max width of the container */
+  min-height: 575px; /* Min height of the container */
+}
+
+.container_for_welcome_logo_container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 454px;
+  height: 120px;
+  flex-direction: row;
+}

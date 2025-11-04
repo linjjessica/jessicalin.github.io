@@ -29,7 +29,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat";
+  font-family: "CourierPS";
 }
 
 html {
@@ -44,13 +44,33 @@ body {
   justify-content: center; /* Horizontally center content */
   align-items: center;
 }
-.montserrat display-regular {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+
+/* .montserrat display-regular {
+  font-family: 'CourierPS';
+  src: url('./fonts/Courier-PS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'CourierPS';
+  src: url('fonts/Courier-PS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.courier {
+  font-family: 'CourierPS', monospace;
   font-style: normal;
 }
 
 p {
+  font-size: 20px;
+  font-family: inherit;
+}
+
+.background-image {
+  width: 100vw;
   font-size: 20px;
   font-family: inherit;
 }
@@ -113,17 +133,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.main-content {
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 100%;
-  min-height: calc(100vh - 50px - 73px);
-  display: flex; /* Enables flexbox */
-  flex-wrap: wrap; /* Allows items to wrap to the next line */
-  align-items: flex-start; /* Aligns items to the start of the container */
-  margin-top: 73px;
 }
 
 footer {
@@ -226,7 +235,7 @@ footer {
   width: 40px; /* or any specific size */
   padding-right: 10px;
 }
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,13 +272,13 @@ footer {
 }
 
 .navbar-nav li {
-  padding: 0 15px; /* Adjust the spacing between the menu items */
-}
+  padding: 0 15px;
+} */
 
-.navbar-nav a {
+/* .navbar-nav a {
   text-decoration: none;
   color: black;
-  text-transform: uppercase; /* Makes the text uppercase */
+  text-transform: uppercase;
 }
 .navbar-nav-btn {
   background: none;
@@ -289,8 +298,9 @@ footer {
 .navbar-nav-icon {
   padding-bottom: 10px;
   width: 50px;
-}
-.navbar-nav-icon-container {
+} */
+
+/* .navbar-nav-icon-container {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -299,14 +309,15 @@ footer {
 }
 
 .navbar-nav li {
-  padding: 0 15px; /* Adjust the spacing between the menu items */
-}
+  padding: 0 15px; 
+} */
 
-.navbar-nav a {
+/* .navbar-nav a {
   text-decoration: none;
   color: black;
-  text-transform: uppercase; /* Makes the text uppercase */
+  text-transform: uppercase; 
 }
+
 .navbar-nav-btn {
   background: none;
   border: none;
@@ -321,14 +332,13 @@ footer {
 .navbar-nav-btn:hover {
   color: rgb(152, 152, 152);
   text-decoration: underline;
-}
+} */
 
 .email-link {
-  color: #427c46; /* Replace with any color you want */
-  /* You can also add :hover, :active, :visited, and :focus pseudo-classes to style different link states */
+  color: #427c46;
 }
 .email-link:hover {
-  color: #63be69; /* Color when the mouse hovers over the link */
+  color: #63be69; 
 }
 .dropbtn {
   background: none;
@@ -377,6 +387,7 @@ footer {
 .navbar .dropdown-content {
   left: 200; /* Adjust this as needed */
 }
+
 
 .board {
   display: grid;

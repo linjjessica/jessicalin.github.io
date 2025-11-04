@@ -1,0 +1,67 @@
+.image_caption {
+  font-size: 12px;
+  font-family: inherit;
+  padding-top: 2px;
+  padding-left: 2px;
+  text-align: left;
+  align-self: flex-start;
+  text-align: left;
+  width: 100%; /* Takes the full width of the container */
+}
+
+.pbold {
+  font-size: 22px;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.subtitle {
+  /* Apply this class to your subtitle */
+  align-self: flex-start; /* Overrides parent flex alignment only for the subtitle */
+  font-size: 22px;
+  font-family: inherit;
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-align: left;
+  width: 100%; /* Takes the full width of the container */
+}
+
+.montserrat display-regular {
+  font-family: 'CourierPS';
+  src: url('../fonts/Courier-PS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CourierPS';
+  src: url('../fonts/Courier-PS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.courier {
+  font-family: 'CourierPS', monospace;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amsterdam';
+  src: url('../fonts/Amsterdam-Handwriting.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.amsterdam-text {
+  font-family: 'Amsterdam', cursive;
+}
+
+.email-link {
+  color: #427c46; /* Replace with any color you want */
+  /* You can also add :hover, :active, :visited, and :focus pseudo-classes to style different link states */
+}
+
+.email-link:hover {
+  color: #63be69; /* Color when the mouse hovers over the link */
+}
+

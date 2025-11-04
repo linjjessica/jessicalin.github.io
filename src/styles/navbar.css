@@ -1,0 +1,132 @@
+
+.navbar {
+  background-image: url('../images/welcome/Background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  /* padding: 0 15px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+}
+
+.navbar-nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: right;
+}
+
+.jessica-lin-container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: right;
+}
+
+.jessica-lin-text img {
+  width: 160px;
+  font-size: 55px;
+  /* height: 60px; */
+}
+
+.navbar-nav-middle {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 200;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-nav-right {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-overflow: ellipsis;
+}
+
+
+
+.navbar-nav-btn {
+  width: 100px;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 10pt;
+  cursor: pointer;
+  padding: 0;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.navbar-nav-btn:hover {
+  color: rgb(152, 152, 152);
+  text-decoration: underline;
+}
+.navbar-nav-icon {
+  padding-bottom: 10px;
+  width: 50px;
+}
+.navbar-nav-icon-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 90px;
+  right: 30px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase; /* Makes the text uppercase */
+}
+.navbar-nav-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 10pt;
+  cursor: pointer;
+  padding: 0;
+  margin: 30px 15px;
+  text-transform: uppercase;
+  height: 100%;
+}
+.navbar-nav-btn:hover {
+  color: rgb(152, 152, 152);
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .jessica-lin-text img {
+    width: 100px;
+  }
+
+  .jessica-lin-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 7px;
+    width: 120px;
+  }
+
+  .navbar-nav-btn {
+    width: 65px;
+    font-size: 11px;
+  }
+  
+  button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  }
+}

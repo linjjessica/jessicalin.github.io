@@ -1,0 +1,27 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.image {
+  width: 370px; /* Adjust if you want the image container to have a specific width */
+  display: flex; /* This isn't necessary if .image is just a class on the img itself */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  margin-bottom: 0;
+}
+.image img {
+  max-width: 100%;
+  height: auto; 
+  object-fit: contain; 
+}
+.icon {
+  width: 40px; /* or any specific size */
+  padding-right: 10px;
+}
+
+.background-image {
+  width: 100vw;
+  font-size: 20px;
+  font-family: inherit;
+}
