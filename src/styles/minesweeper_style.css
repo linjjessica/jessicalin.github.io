@@ -9,7 +9,7 @@
   align-items: center;
 }
 .resetGameButton {
-  margin-top: 20px;
+  padding-top: 20px;
   padding: 10px 20px;
   background-color: #f0f0f0; /* Light grey background, was incorrectly labeled as green */
   outline-width: 2px; /* More typical outline width */

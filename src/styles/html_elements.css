@@ -1,5 +1,6 @@
 html {
-  font-size: 62.5%;
+  font-size: 100%;
+  /* background: red; debug */
 }
 
 main {
@@ -11,17 +12,24 @@ main {
 }
 
 body {
+  /* background: blue; debug */
   height: 100%;
+  margin: 0;
   background-color: rgb(252, 252, 252);
-  font-size: 10pt;
+  font-size: clamp(.5rem, 3vw, 1rem);
   font-weight: 300;
-  justify-content: center; /* Horizontally center content */
+  justify-content: center; 
   align-items: center;
 }
 
 p {
-  font-size: 20px;
+  font-size: clamp(.5rem, 3vw, 1rem);
   font-family: inherit;
+}
+
+b {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
 }
 
 footer {
@@ -35,8 +43,13 @@ footer {
 }
 
 * {
-  margin: 0;
+  padding: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "CourierPS";
+  /* outline: 1px solid rgba(255,0,0,0.2); */
+}
+
+img {
+  width: 100%;
 }

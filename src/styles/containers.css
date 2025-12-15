@@ -2,57 +2,73 @@
   text-align: center;
 }
 
+.right-side {
+  background-image: url('../images/welcome/Background.jpg');
+  margin-left: 40vw;             /* start after the 40vw sidebar */
+  width: 60vw;     /* = 60vw, fills the rest of the screen */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
 .main-content {
-  padding-top: 73px;
+  padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  /* width: 120vw;
-  height: 120vh; */
-  /* min-height: calc(100vh - 50px - 73px); */
   display: flex; /* Enables flexbox */
+  flex-direction: column;
   flex-wrap: wrap; /* Allows items to wrap to the next line */
   align-items: flex-start; /* Aligns items to the start of the container */
-  /* margin-top: 73px; */
 }
 
 .home_background {
-  background-position: 0 -73px;
+  /* background-position: 0 -73px; */
   background-image: url('../images/welcome/Background.jpg');
-  background-size: cover;
-  /* background-position: center;  */
-  background-repeat: no-repeat;
-  /* height: 100vh; */
-  width: 100vw;
+  background-repeat: repeat;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .welcome_logo_container {
-  display: flex;
+  /* display: flex;
   justify-content: left;
   align-items: left;
   width: 217px;
   height: 100px;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .logo_container {
   display: flex;
   height: 40px;
-  font-size: 16pt;
   justify-content: left;
   align-items: center;
   padding-top: 20px;
 }
 
-.container {
+.row_container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start; /* Align items at the start of the container */
-  flex: 1; /* Children will grow to fill the space */
-  min-width: 370px;
-  align-items: center;
-  min-height: 100px;
+  align-items: flex-start;
+  flex: 1;
+  /* align-items: center; */
+  /* min-height: 100px; */
+}
+
+.single_container_45 {
+  /* padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex: 0 0 45%;  */
+}
+
+.single_container_55 {
+  /* padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex: 0 0 55%; */
 }
 
 .fixed-page-height-container {
@@ -61,15 +77,15 @@
   justify-content: center;
   align-items: flex-start;
   flex: 1;
-  min-width: 370px;
+  /* min-width: 370px; */
   align-items: center;
-  min-height: 200px;
+  /* min-height: 200px; */
   height: calc(100vh - 50px - 73px);
 }
 
 .half-block {
   flex: none; /* Equal amount of space */
-  min-width: 420px;
+  /* min-width: 420px; */
   width: 50%; /* 50% of container's width */
   box-sizing: border-box; /* Includes padding and border in the element's total width and height */
   text-align: left; /* Centers the text horizontally */
@@ -84,15 +100,32 @@
   align-items: center; /* Center children horizontally within the container */
   padding: 1rem; /* Adjust the padding as necessary */
   flex: 1; /* Children will grow to fill the space */
-  max-width: 400px; /* Max width of the container */
-  min-height: 575px; /* Min height of the container */
+  /* max-width: 400px; Max width of the container */
+  /* min-height: 575px; Min height of the container */
 }
 
 .container_for_welcome_logo_container {
-  display: flex;
+  /* display: flex;
   justify-content: left;
   align-items: left;
   width: 454px;
   height: 120px;
-  flex-direction: row;
+  flex-direction: row; */
+}
+
+@media (max-width: 720px) {
+  .single_container_45 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 0 0 45%; 
+    /* min-width: 350px; */
+    /* padding-right: 0px; */
+  }
+
+  . {
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 0 0 45%;  */
+    /* min-width: 350px; */
+  }
 }

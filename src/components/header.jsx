@@ -21,53 +21,53 @@ function CustomHeader() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-nav-left">
-          <div className="jessica-lin-container">
-            <div className="jessica-lin-text">
-              <img src={JessicaLin} alt="Jessica Lin" className="image" />
+        <div className="navbar-nav-content">
+          <div className="pink_title">Jessica Lin</div>
+          <div className="dark_title">Full Stack Developer</div>
+          <div className="dark_title">I build reliable, scalable, and 
+            complex web and mobile applications.</div>
+          <p></p>
+          <div className="row_container">
+            <div className="navbar-nav-btn-container">
+              <button
+                id="LoadWelcome"
+                className="navbar-nav-btn"
+                onClick={handleWelcomeClick}
+              >About Me
+              </button>
+              <button
+                id="LoadWelcome"
+                className="navbar-nav-btn"
+                onClick={handleWelcomeClick}
+              >Experience
+              </button>
+              <button className="navbar-nav-btn">Projects</button>
+              <button
+                id="LoadWelcome"
+                className="navbar-nav-btn"
+                onClick={handleWelcomeClick}
+              >Contact Me
+              </button>
             </div>
           </div>
-          <button
-            id="LoadWelcome"
-            className="navbar-nav-btn"
-            onClick={handleWelcomeClick}
-          >About Me
-          </button>
-          <button
-            id="LoadWelcome"
-            className="navbar-nav-btn"
-            onClick={handleWelcomeClick}
-          >Experience
-          </button>
-          <button className="navbar-nav-btn">Projects</button>
-          <div className="dropdown-content">
-            <button
-              id="LoadMinesweeper"
-              className="dropbtn"
-              onClick={handleMinesweeperClick}
-            >
-            Minesweeper
-          </button>
-        </div>
-          <button
-            id="LoadWelcome"
-            className="navbar-nav-btn"
-            onClick={handleWelcomeClick}
-          >Contact Me
-          </button>
-        </div>
-        {/* <h1 className="navbar-nav-middle"> */}
-          
-          
-        {/* </h1> */}
-        <div className="navbar-nav-right">
-          {/* <button className="navbar-nav-btn">My Interests</button> */}
-          {/* <button className="navbar-nav-btn">Contact</button> */}
-          {/* </div> */}
-          {/* <div className="navbar-nav-icon-container">
-          <img src={Github} alt="Github" className="navbar-nav-icon" />
-          <img src={LinkedIn} alt="LinkedIn" className="navbar-nav-icon" /> */}
-          
+          <p></p>
+          <div className="row_container">
+            <div className="navbar-nav-icon-container">
+              <button className="navbar-nav-icon">
+                <img src={null} alt="Python" className="icon" />
+              </button>
+            </div>
+            <div className="navbar-nav-icon-container">
+              <button className="navbar-nav-icon">
+                <img src={null} alt="Python" className="icon" />
+              </button>
+            </div>
+            <div className="navbar-nav-icon-container">
+              <button className="navbar-nav-icon">
+                <img src={null} alt="Python" className="icon" />
+              </button>
+            </div>
+          </div>
         </div>
       </nav>
     </div>
