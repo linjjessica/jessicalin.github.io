@@ -51,7 +51,7 @@
   padding-bottom: clamp(.5rem, 1vw, 1rem);
   padding-left: clamp(.5rem, 1vw, 3rem);
   padding-right: clamp(.5rem, 1vw, 1rem);
-  margin: clamp(.5rem, 1vw, 1rem);
+  margin: clamp(0rem, 1vw, 1rem);
   background-color: #edd3d0;
   border-radius: clamp(.5rem, 1vw, 1rem);
 }
@@ -63,13 +63,13 @@
 }
 
 .skill_card {
-  width: clamp(2rem, 12vw, 10rem);
-  height: clamp(2rem, 12vw, 10rem);
+  width: clamp(2rem, 11vw, 10rem);
+  height: clamp(2rem, 11vw, 10rem);
   display: flex;
   justify-content: center;
   align-items: center;
   perspective: 1000px;
-  margin: clamp(.5rem, 2vw, 2rem);
+  margin: clamp(.2rem, 1.5vw, 2rem);
 }
 
 .skill_card img{
