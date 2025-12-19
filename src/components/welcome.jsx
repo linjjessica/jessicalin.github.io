@@ -5,12 +5,17 @@ import headshot from "../images/welcome/website_headshot.jpg";
 import UCILogo from "../images/welcome/UCILogo.png";
 import UtahIcon from "../images/welcome/Utah.jpg";
 import LAIcon from "../images/welcome/LA.png";
-import PythonIcon from "../images/welcome/PythonLogo.png";
-import CIcon from "../images/welcome/C++Logo.png";
-import JavaScriptIcon from "../images/welcome/JavaScriptLogo.png";
-import HTMLIcon from "../images/welcome/HTMLLogo.png";
-import ReactIcon from "../images/welcome/ReactLogo.png";
-import CSSIcon from "../images/welcome/CSSLogo.png";
+import PythonLogo from "../images/experience/technologies/PythonLogo.png";
+import CPlusLogo from "../images/experience/technologies/C++Logo.png";
+import CSharpLogo from "../images/experience/technologies/CSharpLogo.png";
+import CLogo from "../images/experience/technologies/CLogo.png";
+import JavaLogo from "../images/experience/technologies/JavaLogo.png";
+import JavaScriptLogo from "../images/experience/technologies//JavaScriptLogo.png";
+import HTMLLogo from "../images/experience/technologies/HTMLLogo.png";
+import ReactLogo from "../images/experience/technologies/ReactLogo.png";
+import CSSLogo from "../images/experience/technologies/CSSLogo.png";
+import NodeLogo from "../images/experience/technologies/NodeLogo.png";
+import PostgreSQLLogo from "../images/experience/technologies/PostgreSQLLogo.png";
 import Background from "../images/welcome/SmallerBackgroundWithButterly.jpg";
 import TroicomAppScreens from "../images/experience/TroicomAppScreens.png";
 import DataCleanerGIF from "../images/experience/DataCleanerGif.mov";
@@ -52,7 +57,7 @@ function Welcome() {
                   <a href="mailto:linjjessica@gmail.com" className="email-link">
                     linjjessica@gmail.com
                   </a>
-                  .</b>
+                  !</b>
                   <br />
                   <br />
                   I am a first-generation <b>software engineer</b> studying <b>computer science and business administration at the
@@ -140,7 +145,7 @@ function Welcome() {
                   </div>
                   <div className="dark_large_text">Software Engineering Intern</div>
                   <p>
-                    Redesigned 11 mobile screens for Troicom's DropGO, a LoRa-connected game. 
+                    Redesigned 11 mobile screens for Troicom's DropGO app, a LoRa-connected game. 
                     Authored 5 C# scripts to connect UI/UX to backend logic, including a secure 
                     sign-out flow and Bluetooth device toggling page. Oversaw the end-to-end
                     app deployment process, including producing and editing 7 app store previews and  
@@ -181,54 +186,81 @@ function Welcome() {
               <p></p>
               <div className="row_container"><b>Backend: </b></div>
               <div className="row_container">
+                <div className="skill_card"><div className="skill_inner">
+                  <div className="skill_front">
+                    <img src={PythonLogo} className="icon" />
+                  </div>
+                  <div className="skill_back">
+                    Python
+                  </div>
+                </div></div>
+                
                 <div className="skill_icon_container">
-                  <img src={PythonIcon} alt="Python" className="icon" />
+                  <img src={PythonLogo} alt="Python" className="icon" />
                   Python
                 </div>
                 <div className="skill_icon_container">
-                  <img src={CIcon} alt="C++" className="icon" />
+                  <img src={CPlusLogo} alt="C++" className="icon" />
                   C++
                 </div>
                 <div className="skill_icon_container">
-                  <img
-                    src={JavaScriptIcon}
-                    alt="JavaScript"
-                    className="icon"
-                  />
+                  <img src={CSharpLogo} alt="C#" className="icon" />
+                  C#
+                </div>
+                <div className="skill_icon_container">
+                  <img src={CLogo} alt="C" className="icon" />
+                  C
+                </div>
+                <div className="skill_icon_container">
+                  <img src={JavaScriptLogo} alt="Java" className="icon" />
                   JavaScript
+                </div>
+                <div className="skill_icon_container">
+                  <img src={JavaLogo} alt="JavaScript" className="icon" />
+                  Java
+                </div>
+                <div className="skill_icon_container">
+                  <img src={NodeLogo} alt="Node" className="icon" />
+                  Node
+                </div>
+                <div className="skill_icon_container">
+                  <img src={PostgreSQLLogo} alt="PostgreSQL" className="icon" />
+                  PostgreSQL
                 </div>
               </div>
               <div className="row_container"><b>Frontend: </b></div>
               <div className="row_container">
                 <div className="skill_icon_container">
-                  <img src={HTMLIcon} alt="HTML" className="icon" />
+                  <img src={HTMLLogo} alt="HTML" className="icon" />
                   HTML
                 </div>
                 <div className="skill_icon_container">
-                  <img src={ReactIcon} alt="React" className="icon" />
+                  <img src={ReactLogo} alt="React" className="icon" />
                   React
                 </div>
                 <div className="skill_icon_container">
-                  <img src={CSSIcon} alt="CSS" className="icon" />
+                  <img src={CSSLogo} alt="CSS" className="icon" />
                   CSS
                 </div>
                 <div className="skill_icon_container">
-                  <img src={PythonIcon} alt="Python" className="icon" />
+                  <img src={PythonLogo} alt="Python" className="icon" />
                   Python
                 </div>
                 <div className="skill_icon_container">
-                  <img src={CIcon} alt="C++" className="icon" />
+                  <img src={CPlusLogo} alt="C++" className="icon" />
                   C++
                 </div>
                 <div className="skill_icon_container">
                   <img
-                    src={JavaScriptIcon}
+                    src={JavaScriptLogo}
                     alt="JavaScript"
                     className="icon"
                   />
                   JavaScript
                 </div>
               </div>
+
+              <div className="row_container"><b>Developer Tools: </b></div>
                 
                 
                 
@@ -280,24 +312,16 @@ function Welcome() {
               </div>
               <div className="experience_container">
                 <div className="container_20">
-                  Oct 2025-Jun 2026
+                  Sept 2023-Dec 2023
                 </div>
                 <div className="container_80">
                   <div className="dark_large_text">Donald Bren School of Information and 
                     Computer Sciences</div>
                   <div className="dark_large_text">Learning Assistant - Introduction to Python</div>
                   <p>
-                    Redesigned 11 mobile screens for Troicom's DropGO, a LoRa-connected game. 
-                    Authored 5 C# scripts to connect UI/UX to backend logic, including a secure 
-                    sign-out flow and Bluetooth device toggling page. Oversaw the end-to-end
-                    app deployment process, producing and editing 7 app store previews and  
-                    2 professional app demo videos.
+                    Mentored 52 students in UCI’s essential intro to Python course by leading 
+                    bi-weekly labs and resolving 85+ technical questions.
                   </p>
-                  <img 
-                    src={TroicomAppScreens} 
-                    alt="Personal Headshot"
-                    className="image"
-                  />
                 </div>
                 
               </div>
