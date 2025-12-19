@@ -5,6 +5,7 @@ import linkedin from "../images/header/linkedin.png";
 import "../styles/navbar.css"
 
 import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const sections = [
   { id: "about_me", label: "About Me" },
@@ -15,6 +16,28 @@ const sections = [
 ];
 
 function CustomHeader() {
+  const [activeSection, setActiveSection] = useState("about_me");
+
+  useEffect(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    },
+    { root: null, rootMargin: "0px", threshold: 0.5 }
+  );
+
+  sections.forEach((section) => {
+    const el = document.getElementById(section.id);
+    if (el) observer.observe(el);
+  });
+
+  return () => observer.disconnect();
+  }, []);
+
   const navigate = useNavigate();
 
   const handleMinesweeperClick = () => {
@@ -47,7 +70,7 @@ function CustomHeader() {
               {sections.map((section) => (
               <button
                 key={section.id}
-                className="nav-btn"
+                className={`nav-btn ${activeSection === section.id ? "active" : ""}`}
                 onClick={() => scrollToSection(section.id)}
               >
                 {section.label}
