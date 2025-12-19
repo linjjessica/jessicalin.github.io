@@ -72,6 +72,14 @@
   text-align: left;
 }
 
+.company_text {
+  color: #491a37;
+  font-size: clamp(.8rem, 3vw, 1.5rem);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-align: left;
+}
+
 .curved-outline-box p,
 .curved-outline-box span,
 .curved-outline-box div {

@@ -21,6 +21,8 @@ import MySQLLogo from "../images/experience/technologies/MySQLLogo.png";
 import FlaskLogo from "../images/experience/technologies/FlaskLogo.png";
 import MongoDBLogo from "../images/experience/technologies/MongoDBLogo.png";
 import TypeScriptLogo from "../images/experience/technologies/TypescriptLogo.png";
+import AWSLogo from "../images/experience/technologies/AWSLogo.png";
+import GitLogo from "../images/experience/technologies/GitLogo.png";
 import Background from "../images/welcome/SmallerBackgroundWithButterly.jpg";
 import TroicomAppScreens from "../images/experience/TroicomAppScreens.png";
 import DataCleanerGIF from "../images/experience/DataCleanerGif.mov";
@@ -196,7 +198,7 @@ function Welcome() {
                     <img src={PythonLogo} alt="Python"/>
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> Python</div>
+                    <div className="skill_back_text">Python</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -204,7 +206,7 @@ function Welcome() {
                     <img src={CPlusLogo} alt="C++"/>
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> C++</div>
+                    <div className="skill_back_text">C++</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -212,7 +214,7 @@ function Welcome() {
                     <img src={CSharpLogo} alt="C#"/>
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> C#</div>
+                    <div className="skill_back_text">C#</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -220,7 +222,7 @@ function Welcome() {
                     <img src={CLogo} alt="C"/>
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> C</div>
+                    <div className="skill_back_text">C</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -228,7 +230,7 @@ function Welcome() {
                     <img src={JavaScriptLogo} alt="JavaScript"/>
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> JavaScript</div>
+                    <div className="skill_back_text">JavaScript</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -236,7 +238,7 @@ function Welcome() {
                     <img src={JavaLogo} alt="Java"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> Java</div>
+                    <div className="skill_back_text">Java</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -244,7 +246,7 @@ function Welcome() {
                     <img src={NodeLogo} alt="Node"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> Node</div>
+                    <div className="skill_back_text">Node</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -252,7 +254,7 @@ function Welcome() {
                     <img src={PostgreSQLLogo} alt="PostgreSQL"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> PostgreSQL</div>
+                    <div className="skill_back_text">PostgreSQL</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -260,7 +262,7 @@ function Welcome() {
                     <img src={DjangoLogo} alt="Django"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> MySQL</div>
+                    <div className="skill_back_text">MySQL</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -268,7 +270,7 @@ function Welcome() {
                     <img src={MySQLLogo} alt="MySQL"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> MySQL</div>
+                    <div className="skill_back_text">MySQL</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -276,7 +278,7 @@ function Welcome() {
                     <img src={FlaskLogo} alt="Flask"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> Flask</div>
+                    <div className="skill_back_text">Flask</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -284,7 +286,7 @@ function Welcome() {
                     <img src={MongoDBLogo} alt="MongoDB"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> MongoDB</div>
+                    <div className="skill_back_text">MongoDB</div>
                   </div>
                 </div></div>
                 
@@ -297,7 +299,7 @@ function Welcome() {
                     <img src={JavaScriptLogo} alt="JavaScript"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> JavaScript</div>
+                    <div className="skill_back_text">JavaScript</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -305,7 +307,7 @@ function Welcome() {
                     <img src={ReactLogo} alt="React"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> React</div>
+                    <div className="skill_back_text">React</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -313,7 +315,7 @@ function Welcome() {
                     <img src={HTMLLogo} alt="HTML"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> HTML</div>
+                    <div className="skill_back_text">HTML</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -321,7 +323,7 @@ function Welcome() {
                     <img src={CSSLogo} alt="CSS"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> CSS</div>
+                    <div className="skill_back_text">CSS</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -329,14 +331,31 @@ function Welcome() {
                     <img src={TypeScriptLogo} alt="TypeScript"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> TypeScript</div>
+                    <div className="skill_back_text">TypeScript</div>
                   </div>
                 </div></div>
                 
               </div>
 
               <div className="row_container"><b>Developer Tools: </b></div>
-                
+              <div className="row_container">
+                <div className="skill_card"><div className="skill_inner">
+                  <div className="skill_front">
+                      <img src={AWSLogo} alt="AWS"  />
+                    </div>
+                    <div className="skill_back">
+                      <div className="skill_back_text">AWS</div>
+                    </div>
+                  </div></div>
+                <div className="skill_card"><div className="skill_inner">
+                  <div className="skill_front">
+                      <img src={GitLogo} alt="Git"  />
+                    </div>
+                    <div className="skill_back">
+                      <div className="skill_back_text">Git</div>
+                    </div>
+                  </div></div>
+              </div>
                 
                 
                 
@@ -348,11 +367,7 @@ function Welcome() {
               <p></p>
               <div className="experience_container">
                 <div className="row_container">
-                  Redesigned 11 mobile screens for Troicom's DropGO, a LoRa-connected game. 
-                    Authored 5 C# scripts to connect UI/UX to backend logic, including a secure 
-                    sign-out flow and Bluetooth device toggling page. Oversaw the end-to-end
-                    app deployment process, including producing and editing 7 app store previews and  
-                    2 professional app demo videos.
+                  <p>  </p>
                 </div>
               </div>
               <p></p>
