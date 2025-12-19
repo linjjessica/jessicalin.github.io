@@ -40,8 +40,13 @@
   font-weight: 600;
 }
 
-.line {
+.dark_line {
   background-color: #491a37;
+  width: 100%;
+  height: 3px;
+}
+.pink_line {
+  background-color: #ff66c4;
   width: 100%;
   height: 3px;
 }
@@ -69,6 +74,14 @@
   font-size: clamp(.8rem, 3vw, 1.5rem);
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
+  text-align: left;
+}
+
+.large_pink_text {
+  color: #ff66c4;
+  font-size: clamp(.5rem, 3vw, 1rem);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
   text-align: left;
 }
 

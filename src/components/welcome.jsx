@@ -45,7 +45,7 @@ function Welcome() {
           <div className="main-content">
             <section id="about_me">
               <div className="dark_header">About Me</div>
-              <div className="line"></div>
+              <div className="dark_line"></div>
               <div className="row_container">
                 <div className="image_wrapper">
                   <div className="rounded_wrapper">
@@ -105,7 +105,7 @@ function Welcome() {
 
             <section id="experience">
               <div className="dark_header">Experience</div>
-              <div className="line"></div>
+              <div className="dark_line"></div>
               <p></p>
               <div className="experience_container">
                 <div className="container_20">
@@ -189,9 +189,12 @@ function Welcome() {
 
             <section id="skills">
               <div className="dark_header">Skills</div>
-              <div className="line"></div>
+              <div className="dark_line"></div>
               <p></p>
-              <div className="row_container"><b>Backend: </b></div>
+              <div className="row_container"><div className="large_pink_text">
+                &emsp;Backend:&emsp;<br />
+                <div className="row_container"><div className="pink_line"></div></div></div>
+              </div>
               <div className="row_container">
                 <div className="skill_card"><div className="skill_inner">
                   <div className="skill_front">
@@ -292,7 +295,10 @@ function Welcome() {
                 
 
               </div>
-              <div className="row_container"><b>Frontend: </b></div>
+              <div className="row_container"><div className="large_pink_text">
+                &emsp;Frontend:&emsp;<br />
+                <div className="row_container"><div className="pink_line"></div></div></div>
+              </div>
               <div className="row_container">
                 <div className="skill_card"><div className="skill_inner">
                   <div className="skill_front">
@@ -337,7 +343,11 @@ function Welcome() {
                 
               </div>
 
-              <div className="row_container"><b>Developer Tools: </b></div>
+              <div className="row_container"><div className="large_pink_text">
+                &emsp;Developer Tools:&emsp;<br />
+                <div className="row_container"><div className="pink_line"></div></div></div>
+              </div>
+              
               <div className="row_container">
                 <div className="skill_card"><div className="skill_inner">
                   <div className="skill_front">
@@ -363,7 +373,7 @@ function Welcome() {
             
             <section id="projects">
               <div className="dark_header">Projects</div>
-              <div className="line"></div>
+              <div className="dark_line"></div>
               <p></p>
               <div className="experience_container">
                 <div className="row_container">
@@ -375,7 +385,7 @@ function Welcome() {
 
             <section id="extracurriculars">
               <div className="dark_header">Extracurriculars</div>
-              <div className="line"></div>
+              <div className="dark_line"></div>
               <p></p>
               <div className="experience_container">
                 <div className="container_20">
