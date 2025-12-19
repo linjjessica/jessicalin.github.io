@@ -20,6 +20,7 @@ import DjangoLogo from "../images/experience/technologies/PythonDjango.png";
 import MySQLLogo from "../images/experience/technologies/MySQLLogo.png";
 import FlaskLogo from "../images/experience/technologies/FlaskLogo.png";
 import MongoDBLogo from "../images/experience/technologies/MongoDBLogo.png";
+import TypeScriptLogo from "../images/experience/technologies/TypescriptLogo.png";
 import Background from "../images/welcome/SmallerBackgroundWithButterly.jpg";
 import TroicomAppScreens from "../images/experience/TroicomAppScreens.png";
 import DataCleanerGIF from "../images/experience/DataCleanerGif.mov";
@@ -293,10 +294,10 @@ function Welcome() {
               <div className="row_container">
                 <div className="skill_card"><div className="skill_inner">
                   <div className="skill_front">
-                    <img src={HTMLLogo} alt="HTML"  />
+                    <img src={JavaScriptLogo} alt="JavaScript"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> HTML</div>
+                    <div className="skill_back_text"> JavaScript</div>
                   </div>
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
@@ -309,6 +310,14 @@ function Welcome() {
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
                   <div className="skill_front">
+                    <img src={HTMLLogo} alt="HTML"  />
+                  </div>
+                  <div className="skill_back">
+                    <div className="skill_back_text"> HTML</div>
+                  </div>
+                </div></div>
+                <div className="skill_card"><div className="skill_inner">
+                  <div className="skill_front">
                     <img src={CSSLogo} alt="CSS"  />
                   </div>
                   <div className="skill_back">
@@ -317,12 +326,13 @@ function Welcome() {
                 </div></div>
                 <div className="skill_card"><div className="skill_inner">
                   <div className="skill_front">
-                    <img src={JavaScriptLogo} alt="JavaScript"  />
+                    <img src={TypeScriptLogo} alt="TypeScript"  />
                   </div>
                   <div className="skill_back">
-                    <div className="skill_back_text"> JavaScript</div>
+                    <div className="skill_back_text"> TypeScript</div>
                   </div>
                 </div></div>
+                
               </div>
 
               <div className="row_container"><b>Developer Tools: </b></div>

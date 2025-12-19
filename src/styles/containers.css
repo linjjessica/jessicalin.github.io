@@ -149,9 +149,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  flex: 1;
-  /* align-items: center; */
-  /* min-height: 100px; */
+  /* flex: 1; */
 }
 
 .curved-outline-box {
@@ -206,7 +204,7 @@
 }
 
 .container {
-  
+
 }
 
 @media (max-width: 720px) {
