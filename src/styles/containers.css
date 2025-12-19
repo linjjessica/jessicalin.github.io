@@ -205,6 +205,10 @@
   flex-direction: row; */
 }
 
+.container {
+  
+}
+
 @media (max-width: 720px) {
   .single_container_45 {
     padding-top: 10px;

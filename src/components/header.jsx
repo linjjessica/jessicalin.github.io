@@ -35,10 +35,13 @@ function CustomHeader() {
     <div>
       <nav className="navbar">
         <div className="navbar-nav-content">
-          <div className="pink_title">Jessica Lin</div>
-          <div className="dark_title">Full Stack Developer</div>
-          <div className="dark_title">I build reliable, scalable, and 
-            complex web and mobile applications.</div>
+          <div className="container">
+            <div className="pink_title">Jessica Lin</div>
+            <div className="dark_title">Full Stack Developer</div>
+            <div className="dark_title">I build reliable, scalable, and 
+              complex web and mobile applications.</div>
+          </div>
+          
           <div className="row_container">
             <div className="nav-btn-container">
               {sections.map((section) => (
