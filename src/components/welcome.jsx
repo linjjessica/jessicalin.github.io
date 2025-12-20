@@ -5,6 +5,7 @@ import headshot from "../images/welcome/website_headshot.jpg";
 import UCILogo from "../images/welcome/UCILogo.png";
 import UtahIcon from "../images/welcome/Utah.jpg";
 import LAIcon from "../images/welcome/LA.png";
+import DSPLogo from "../images/experience/DSPLogo.png";
 import PythonLogo from "../images/experience/technologies/PythonLogo.png";
 import CPlusLogo from "../images/experience/technologies/C++Logo.png";
 import CSharpLogo from "../images/experience/technologies/CSharpLogo.png";
@@ -399,7 +400,10 @@ function Welcome() {
                   May 2023-Jan 2024
                 </div>
                 <div className="container_80">
-                  <div className="dark_large_text">Delta Sigma Pi</div>
+                  <div className="row_container_left_aligned">
+                    <div className="company_logo"><img src={DSPLogo} alt="DSP" className="icon" /></div>
+                    <div className="company_text">Delta Sigma Pi</div>
+                  </div>
                   <div className="dark_large_text">Director of Technology</div>
                   <p>
                     <div className="rounded_wrapper">
@@ -422,8 +426,11 @@ function Welcome() {
                   Sept 2023-Dec 2023
                 </div>
                 <div className="container_80">
-                  <div className="dark_large_text">Donald Bren School of Information and 
+                  <div className="row_container_left_aligned">
+                    <div className="company_logo"><img src={UCILogo} alt="DSP" className="icon" /></div>
+                    <div className="company_text">Donald Bren School of Information and 
                     Computer Sciences</div>
+                  </div>
                   <div className="dark_large_text">Learning Assistant - Introduction to Python</div>
                   <p>
                     Mentored 52 students in UCI’s essential intro to Python course by leading 
